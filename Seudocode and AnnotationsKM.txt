@@ -2,6 +2,7 @@ sudocode and annotations
 
 
 Krister Martinez
+
 Tic-Tac-Toe Seudocode
 
 we are going to need a board to place the different moves.  We can do this  by creating lists with in list.  
