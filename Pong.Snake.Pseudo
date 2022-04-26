@@ -1,0 +1,26 @@
+Pong psuedocode:
+- This program needs to start by drawing and creating a few objects
+- The objects are the ball, the screen, the middle line, and the bars
+- Then we need to proceed to give these physical attributes with boundaries
+- The paddles need to be mapped to the far left and the far right of the screen
+- The ball needs to be given physical attributes and boundaries of if it hits the paddles, it bounces off at a different speed depending on the angle it hit.
+- The ball then if passing either full left or full right screen needs to update a score for the opposite side.
+- The middle line on screen should appear dashed.
+- The top middle left and top middle right should have the scores showing and updating respectively
+- Then whoever reaches 10 points it will either say player 1 or 2 won!
+
+
+Snake pseudocode:
+- This program will start with importing all needed aspects
+- Then we will need to make sure all the graphics and sounds and fonts are installed
+- We need to start by physically creating the snake and the apple objects before implementing graphics
+- Then proceed to define each individual graphic/movement
+- Then we need to give it boundaries that make it so that if you hit the edges of the screen its game over
+- We also need to make sure that when the snake touches the apple it "eats" it and then randomizes the location of the apple
+- Then we need the snake to grow slightly each time and also add a point
+- We then need to make sure that up, down, left, right is mapped to the keys on the keyboard.
+- Then we need to make sure that the graphics are added to the blocks
+- Then we need to make sure all of the vectors for each block is correct and where we want it
+- Make sure to give everything an x and a y coordinate.
+- Then make it so that if the apple is eaten a sound is played and a point is added on the bottom left
+- The snake also needs to be coded so that if it hits itself it is also game over
