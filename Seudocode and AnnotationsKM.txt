@@ -3,14 +3,14 @@ sudocode and annotations
 
 Krister Martinez
 
-Tic-Tac-Toe Seudocode
+Tic-Tac-Toe Seudocode -----------
 
 we are going to need a board to place the different moves.  We can do this  by creating lists with in list.  
 We need 3 lists containig 3 other list each for a total of 9.  One list per position in th eboard.
 
 We also need a user input from the users to place the Xs or the Os on the board.  
 there will be 9 positions from 1 to 9
-if the user enteranything else than 1 to 9 we will ask them to try again
+if the user enter anything else than 1 to 9 we will ask them to try again
 we also need to be able to let the user quit the game
 
 I need to check if the spot is already taken
@@ -19,3 +19,24 @@ I need to check if after each move there is a winner or a tie
 we are going to have rows colums and diagonals
 
 I need to toggle from the x user to the O user until a win
+
+
+
+RockPaperScissors Seudocode -----------
+
+Player will enter  r or p or s
+
+The computer will choose randomly so I need to import random
+
+Define the logic of what is to win
+   game tied
+   human wins
+   comp wins   
+
+how many trys out of how many trys to win
+   use math.ceil to calculate who wins
+
+count the wins
+
+set number of allowed trys
+
